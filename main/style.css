@@ -13,6 +13,11 @@ body {
     flex-direction: column;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
 .header {
     width: 1440px;
     height: 590px;
@@ -132,7 +137,6 @@ body {
     color: #FFFFFF;
 }
 
-
 .buttons {
     background-color: #000000;
     box-sizing: border-box;
@@ -156,13 +160,12 @@ body {
 }
 
 .buttons:hover {
-    background: #E0E0E0;
-    border: 2px solid #828282;
+    background: #c5c5c556;
+    border: 2px solid #C80000;
     border-radius: 27px;
     cursor: pointer;
     transition: top 2s ease-out 1s;
 }
-
 
 .slider {
     display: flex;
@@ -202,18 +205,42 @@ body {
 
 .b1 {
    margin-right: 42px;
+   cursor: pointer;
 }
 
 .b2 {
     margin-right: 42px;
+    cursor: pointer;
 }
 
 .b3 {
     margin-right: 42px;
+    cursor: pointer;
 }
 
 .b4 {
-    margin-right: 0pxpx;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.b1:hover {
+    color: #C80000;
+    cursor: pointer;
+}
+
+.b2:hover {
+    color: #C80000;
+    cursor: pointer;
+}
+
+.b3:hover {
+    color: #C80000;
+    cursor: pointer;
+}
+
+.b4:hover {
+    color: #C80000;
+    cursor: pointer;
 }
 
 .btnRight {
@@ -230,8 +257,17 @@ body {
     background: url(../main/img/Group\ 23.svg) center no-repeat;
 }
 
-/* MAIN */
+.btnRight:hover {
+    border: 2px solid #C80000;
+    cursor: pointer;
+}
 
+.btnLeft:hover {
+    border: 2px solid #C80000;
+    cursor: pointer;
+}
+
+/* MAIN */
 .main {
     max-width: 1440px;
     min-height: 2661px;
@@ -350,11 +386,7 @@ body {
 
 .choice {
     width: 1198px;
-    /* min-height: 435px; */
     display: flex;
-    /* flex-direction: row; */
-    /* justify-content: center;
-    overflow: hidden; */
 }
 
 .card1 {
@@ -370,6 +402,11 @@ body {
     border-radius: 14px;
     cursor: pointer;
 
+}
+
+.card1:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 4px rgba(167, 167, 167, 0.792);
 }
 
 .card2 {
@@ -391,6 +428,11 @@ body {
     border-radius: 14px;
 }
 
+.card2:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 4px rgba(167, 167, 167, 0.792);
+}
+
 .card3 {
     width: 286px;
     height: 412px;
@@ -410,6 +452,11 @@ body {
     border-radius: 14px;
 }
 
+.card3:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 4px rgba(167, 167, 167, 0.792);
+}
+
 .img2 {
     margin: 95px 11px 82px 11px;
     width: 264px;
@@ -427,7 +474,6 @@ body {
     right: 27px;
     top: 24px;
 }
-
 
 .img3 {
     margin: 131px 8px 104px 16px;
@@ -528,6 +574,11 @@ body {
     border-radius: 14px;
 }
 
+.card4:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 4px rgba(167, 167, 167, 0.792);
+}
+
 .card5 {
     width: 286px;
     height: 412px;
@@ -546,6 +597,11 @@ body {
     border-radius: 14px;
 }
 
+.card5:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 4px rgba(167, 167, 167, 0.792);
+}
+
 .card6 {
     width: 286px;
     height: 412px;
@@ -553,10 +609,13 @@ body {
     margin-right: 18px;
     background: #272727;
     border-radius: 9px;
-
     cursor: pointer;
-
     border-radius: 14px;
+}
+
+.card6:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 4px rgba(167, 167, 167, 0.792);
 }
 
 .card7 {
@@ -576,6 +635,11 @@ body {
     top: 0%;
     bottom: 14.35%;
     border-radius: 14px;
+}
+
+.card7:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 4px rgba(167, 167, 167, 0.792);
 }
 
 .img4 {
@@ -626,6 +690,7 @@ body {
     border-radius: 6px;
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 
 .email {
@@ -644,7 +709,7 @@ body {
 input {
     width: 120px;
     background: #272727;
-
+    cursor: pointer;
 }
 
 .popular {
@@ -666,6 +731,7 @@ input {
     line-height: 42px;
     color: #FFFFFF;
     position: relative;
+    cursor: pointer;
 }
 
 .menu__link::after {
@@ -683,7 +749,6 @@ input {
 .menu__link:focus::after {
     width: 100%;
 }
-
 
 .active__link {
     position: relative;
@@ -828,6 +893,11 @@ input {
     border-radius: 14px;
 }
 
+.card11:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 4px rgba(167, 167, 167, 0.792);
+}
+
 .card12 {
     width: 380px;
     height: 465px;
@@ -836,11 +906,21 @@ input {
     border-radius: 14px;
 }
 
+.card12:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 4px rgba(167, 167, 167, 0.792);
+}
+
 .card13 {
     width: 380px;
     height: 465px;
     background: url(../main/img/Rectangle\ 43.png);
     border-radius: 14px;
+}
+
+.card13:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 4px rgba(167, 167, 167, 0.792);
 }
 
 .data {
@@ -882,9 +962,7 @@ input {
     transition: ease-out .4s ;
 }
 
-
 /* FOOTER */
-
 .footer {
     width: 1440px;
     height: 376px;
@@ -905,15 +983,14 @@ input {
     display: flex;
     flex-direction: row;
     position: absolute;
-    width: 368px;    height: 47px;
+    width: 368px;   
+    height: 47px;
 }
 
 .logoP {
     margin-top: 70px;
     width: 368px;
     height: 221px;
-    left: 119px;
-    top: 4844px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -923,10 +1000,11 @@ input {
 }
 
 .logoTitle {
+    margin-top: 5px;
+    margin-left: 18px;
+    margin-bottom: 291px;
     width: 160px;
     height: 34px;
-    left: 340px;
-    top: 4775px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -934,3 +1012,130 @@ input {
     line-height: 17px;
     color: #FFFFFF;
 }
+
+.foot2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 29px;
+    margin-left: 76px;
+}
+
+.foot2 h2 {
+    width: 121px;
+    height: 28px; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 383px;
+    margin-left: -40px;
+    height: 24px; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;  
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.foot24 h2 {
+    width: 132px;
+    height: 28px;
+    margin-right: 20px;
+}
+
+li { 
+    margin-left: 0px;
+    margin-right: 25px;
+}
+
+.foot24 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+}
+
+.foot24 img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.foot23 {
+    margin-top: 20px;
+}
+
+.foot3 {
+    margin-left: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.foot3 h2 {
+    margin-top: 43px;
+    width: 229px;
+    height: 28px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.foot3 h3 {
+    margin-top: 3px;
+    width: 200px;
+    height: 28px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.foot3 a {
+    width: 123px;
+    height: 19px;
+    margin-top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.foot3 p {
+    width: 186px;
+    height: 19px;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.foot3 img {
+    width: 87px;
+    height: 31px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
