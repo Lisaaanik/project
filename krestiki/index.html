@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tic-tac</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet"><body>
+<!-- HEADER -->
+  <header class="header">
+    <div class="container header-container">
+      <h1 class="section-title">Tic Tac Toe</h1>
+    </div>
+  </header>
+<!-- MAIN -->
+  <main class="main">
+    <div class="container container-game">
+      <h2 class="status"></h2>
+      <div class="game">
+        <div data-index="0" class="cell"></div>
+        <div data-index="1" class="cell"></div>
+        <div data-index="2" class="cell"></div>
+        <div data-index="3" class="cell"></div>
+        <div data-index="4" class="cell"></div>
+        <div data-index="5" class="cell"></div>
+        <div data-index="6" class="cell"></div>
+        <div data-index="7" class="cell"></div>
+        <div data-index="8" class="cell"></div>
+      </div>
+      <div class="buttons">
+        <button class="button restart">New Game</button>
+        <button class="button high-score">High Score</button>
+      </div>
+      
+      <div class="modal">
+        <div class="wrapper">
+          <span class="close">&times;</span>
+          <h2 class="winning-msg"></h2>
+          <div class="buttons">
+            <button class="button restart">New Game</button>
+            <button class="button high-score">High Score</button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-score">
+        <div class="wrapper wrapper-score">
+          <span class="close-score">&times;</span>
+          <h2 class="score-title">High score of last 10 games</h2>
+          <div class="score"></div>
+          <button class="button restart">New Game</button>
+        </div>
+      </div>
+    </div>
+  </main>
+<!-- FOOTER -->
+  <footer class="footer">
+  </footer>
+  <script src="js.js"></script>
+</body>
+</html>
