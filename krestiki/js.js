@@ -194,5 +194,3 @@ function getLocalStorage() {
 }
 
 window.addEventListener('load', getLocalStorage);
-
-console.log('Все пункты выполнены полностью!\nИтого 70 баллов.');
